@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "artcollector",
+	"version": "${version}",
+
+	"name": "Art Collector",
+	"description": "Turns painting variants into rare collectables.",
+	"authors": [
+		"Estecka"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/art-collector",
+		"sources": "https://github.com/Estecka/mc-art-collector"
+	},
+
+	"icon": "assets/artcoll/icon.png",
+
+	"environment": "*",
+	"entrypoints": {
+	},
+	"mixins": [
+		"artcoll.mixins.json"
+	],
+
+	"depends": {
+		"fabricloader": ">=0.14.19",
+		"fabric-api": "*",
+		"minecraft": "~1.19.4",
+		"java": ">=17"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

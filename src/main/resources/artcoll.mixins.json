@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "net.fabricmc.artcoll.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"PaintingUnrandomizer"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
