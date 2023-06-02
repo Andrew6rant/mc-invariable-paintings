@@ -12,5 +12,6 @@ public class ArtCollector implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		SellPaintingFactory.RegisterPaintings();
 	}
 }

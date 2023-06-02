@@ -17,6 +17,9 @@
 
 	"environment": "*",
 	"entrypoints": {
+		"main": [
+			"net.fabricmc.artcoll.ArtCollector"
+		]
 	},
 	"mixins": [
 		"artcoll.mixins.json"
